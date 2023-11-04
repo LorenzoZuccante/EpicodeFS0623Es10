@@ -1,35 +1,111 @@
 body {
     font-family: Arial, Helvetica, sans-serif ;
     background-color: rgb(233, 237, 238);
+    font-size: 1.2em;
     
 }
 header {
 
 }
-#headerbox {
+#logo {
+    width: 10%;
+    padding-left: 1%;
+}
+#headerbox {background-color: rgb(34, 47, 63);
 
 }
-nav {
+nav {background-color: rgb(54, 71, 89);
 
 }
 main {
+margin: 2%
 
 }
-#giftcard {
+#giftcard {background-color: rgb(245, 102, 0);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
 
 }
-#flyerheader {
+#flyerheader {text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: rgb(255, 255, 255);
+    background-image: url(../images/bg-image.png);
+    background-size: 93%;
+    padding-top: 6%;
+    padding-bottom: 5%;
+    
 
 }
-article {
+#firstarticle {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+.img {
+    width: 23%;
+    height: 45vh;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10%;
+    padding-left: 1.3%;
+    
+    
+    
+}
+article {margin-top: 2%;
+    
 
+}
+.img2 {
+    width: 100%;
+    
+}
+.article1 {
+    text-align: center;
 }
 footer {
 
 }
-#footerheader {
+#footerheader {background-color: rgb(54, 71, 89);
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
 
 }
-#footerlogobox{
+#footerlogobox{background-color: rgb(34, 47, 63);
     
+
+}
+#logo1 {
+    width: 10%;
+    padding-left: 45%;
+    padding-right: 50%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+ /*base di lavoro
+ aggiunte durante il lavoro*/
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+ul {display: flex;
+    list-style: none;
+    padding-left: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    
+}
+li {
+    padding-left: 1%;
+}
+p {
+    padding: 1%;
+}
+main a {
+    color: rgb(71, 122, 128);
 }
